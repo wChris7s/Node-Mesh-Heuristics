@@ -18,14 +18,11 @@ Node *END_NODE;
 
 /*
  * Christian W. Aranibar Solaligue.
- * El algoritmo A* y BestFirst en ocasiones falla, esto se debe al borrado y los obstaculos.
- * No se encuentra el camino o se queda a la espera.
  * El algoritmo empieza realizando las conexiones entre nodos, luego se borran nodos y se crean obstaculos.
  * Para el borado de nodos se pasa un porcentaje que asegura el borrado de nodos.
  * Los obstaculos tinen un porcentaje de propagacion, es decir, si un nodo tiene un obstaculo, los nodos adyacentes
  * tienen un porcentaje de probabilidad de ser obstaculos.
  * Ambos algoritmos de busqueda se generan en la misma malla de nodos.
- * Todo se ejecuta en consola, el resultado del camino se encuentra en el archivo data.txt dentro de la carpeta src.
  */
 
 void saveNodeMapping(std::vector<std::vector<std::string>> map) {
