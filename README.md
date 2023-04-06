@@ -11,9 +11,9 @@ algoritmos de búsqueda.
 En principio se debe ejecutar el archivo `main.cpp` para poder generar el mapa. Luego, se debe
 ejecutar el archivo `src\map.py` para poder visualizar el mapa generado por los algoritmos de búsqueda heurística.
 Tenga en cuenta lo siguiente:
--     Porcentaje de borrado: Es el porcentaje de nodos que se van a borrar del mapa generado.
--     Porcentaje de propagación: Es el porcentaje de nodos que se van a propagar del mapa generado.
--     Porcentaje de propagación: Es el porcentaje de nodos que se van a propagar del mapa generado.
+- `pBorrado`: Es el porcentaje de nodos que se van a borrar del mapa generado.
+- `cObstacles`: Es la cantidad de obstáculos que se van a generar en el mapa generado.
+- `rPropagation`: Es el porcentaje de nodos que se van a propagar del mapa generado.
 Una vez finalizada la ejecución de `src\map.py` se guardará una imagen con el nombre del algoritmo de búsqueda usado
 en la carpeta `img`.
 ### Imágenes generadas.
